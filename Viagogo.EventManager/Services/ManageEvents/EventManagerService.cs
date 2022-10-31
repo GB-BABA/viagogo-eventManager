@@ -26,6 +26,7 @@ public static class EventManagerService
 
         if (request is not null && !string.IsNullOrEmpty(request.OrderByKey))
         {
+            //Add price filter option
             if (request.OrderByKey == "price")
             {
                 query = (request.OrderBy == Data.Enums.OrderByEnum.ASC) ?
