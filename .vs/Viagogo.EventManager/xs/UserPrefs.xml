@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{2CF9FF61-294C-49B7-A393-1C0BA5EC4BD7}|Default">
+  <MonoDevelop.Ide.ItemProperties.Viagogo.EventManager PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Viagogo.EventManager/Program.cs">
+    <Files>
+      <File FileName="Viagogo.EventManager/Program.cs" Line="19" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Viagogo.EventManager" expanded="True">
+            <Node name="Viagogo.EventManager" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="Enums" expanded="True" />
+                <Node name="Mock" expanded="True" />
+                <Node name="Models" expanded="True" />
+                <Node name="ViewModels" expanded="True" />
+              </Node>
+              <Node name="Helpers" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="ManageEvents" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
