@@ -61,7 +61,7 @@ public static class EventManagerService
             List<Event>? currentCustomerEvents = default;
 
             if (customers is null || !customers.Any())
-                throw new NoEventinCustomerLocationException();
+                throw new CustomerModelIsRequiredException();
 
             foreach (var customer in customers)
             {
