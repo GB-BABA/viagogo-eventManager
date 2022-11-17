@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Viagogo;
-using Viagogo.EventManager.Data.Models;
-using Viagogo.EventManager.Data.ViewModels;
 
 namespace Viagogo;
 
@@ -82,7 +80,7 @@ public class Program
             //Add price filter option
             if (request.OrderByKey == "price")
             {
-                query = (request.OrderBy == EventManager.Data.Enums.OrderByEnum.ASC) ?
+                query = (request.OrderBy == OrderByEnum.ASC) ?
                     query.OrderBy(evt => evt.Price) :
                     query.OrderByDescending(evt => evt.Price);
             }
@@ -207,5 +205,47 @@ public class Program
     static int GetPrice(Event e)
     {
         return (AlphebiticalDistance(e.City, "") + AlphebiticalDistance(e.Name, "")) / 10;
+    }
+
+    public class EventWithProximityRanking : Event
+    {
+        public int ProximityRanking { get; set; }
+
+        public EventWithProximityRanking(string name, string city, int proximityRanking)
+        {
+
+        }
+    }
+
+    public class Event
+    {
+        public string Name { get; set; } = string.Empty;
+
+        public string City { get; set; } = string.Empty;
+
+        public int Price { get; set; }
+    }
+
+    public class Customer
+    {
+        public string Name { get; set; } = string.Empty;
+
+        public string City { get; set; } = string.Empty;
+    }
+
+    public class GetAllEventsRequest
+    {
+        public int PageLimit { get; set; }
+
+        public int PageIndex { get; set; }
+
+        public string? OrderByKey { get; set; }
+        public OrderByEnum OrderBy { get; set; } = OrderByEnum.ASC;
+    }
+
+    public enum OrderByEnum
+    {
+        ASC,
+        DESC
     }
 }

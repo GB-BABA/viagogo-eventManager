@@ -8,12 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Enums\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Enums\" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Remove="Services\ManageEvents\EventManagerService.cs" />
   </ItemGroup>
 </Project>
