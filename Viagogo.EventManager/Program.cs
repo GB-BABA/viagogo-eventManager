@@ -208,5 +208,4 @@ public class Program
     {
         return (AlphebiticalDistance(e.City, "") + AlphebiticalDistance(e.Name, "")) / 10;
     }
-
 }
