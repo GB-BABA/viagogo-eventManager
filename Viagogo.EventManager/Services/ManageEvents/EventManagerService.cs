@@ -15,8 +15,6 @@ public static class EventManagerService
     /// <returns></returns>
     public static IEnumerable<Event> GetAllEvents(GetAllEventsRequest? request = default)
     {
-        List<Event> events = EventMockData.Events;
-
         var query = events.AsParallel().Select(@event => new Event
         {
             Name = @event.Name,

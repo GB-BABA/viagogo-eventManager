@@ -1,23 +1,31 @@
 ﻿<Properties StartupConfiguration="{2CF9FF61-294C-49B7-A393-1C0BA5EC4BD7}|Default">
-  <MonoDevelop.Ide.ItemProperties.Viagogo.EventManager PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Viagogo.EventManager/Program.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Viagogo.EventManager/Services/ManageEvents/EventManagerService.cs">
     <Files>
-      <File FileName="Viagogo.EventManager/Program.cs" Line="19" Column="1" />
+      <File FileName="Viagogo.EventManager/Program.cs" Line="16" Column="1" />
+      <File FileName="Viagogo.EventManager/Services/ManageEvents/EventManagerService.cs" Line="31" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
           <Node name="Viagogo.EventManager" expanded="True">
             <Node name="Viagogo.EventManager" expanded="True">
               <Node name="Data" expanded="True">
                 <Node name="Enums" expanded="True" />
                 <Node name="Mock" expanded="True" />
-                <Node name="Models" expanded="True" />
-                <Node name="ViewModels" expanded="True" />
               </Node>
+              <Node name="Exceptions" expanded="True" />
               <Node name="Helpers" expanded="True" />
               <Node name="Services" expanded="True">
-                <Node name="ManageEvents" expanded="True" />
+                <Node name="ManageEvents" expanded="True">
+                  <Node name="EventManagerService.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -28,10 +36,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Viagogo.EventManager PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
